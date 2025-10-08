@@ -28,6 +28,7 @@ if 'urgent' in sub_lower:
 elif 'immediate action required' in subject:
     print("SECURITY ASSESSMENT:")
     print("HIGH RISK: Possible phishing attempt.")
+    print("------------------------")
     print(f'Analyzed subject: "{subject}"')
 elif 'win' in sub_lower:
     print("SECURITY ASSESSMENT:")
@@ -36,7 +37,8 @@ elif 'win' in sub_lower:
     print(f'Analyzed subject: "{subject}"')
 elif 'free' in subject: 
     print("SECURITY ASSESSMENT:")
-    print("MEDIUM RISK:Suspicious offer detected")
+    print("MEDIUM RISK: Suspicious offer detected")
+    print("------------------------")
     print(f'Analyzed subject: "{subject}"')
 elif 'password reset' in sub_lower:
     print("SECURITY ASSESSMENT:")
