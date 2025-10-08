@@ -17,7 +17,7 @@
 
 subject=input("Enter the email subject line: ")
 sub_lower=subject.lower()
-
+print()
 
 if 'meeting' in sub_lower:
     print('SECURITY ASSESSMENT:')
@@ -41,6 +41,7 @@ elif 'password reset' in sub_lower:
     print("------------------------")
     print(f'Analyzed subject: {subject}')
 else:
+    print("SECURITY ASSESSMENT:")
     print("No phishing indicators detected.")
     print("------------------------")
     print(f'Analyzed subject: {subject}')
