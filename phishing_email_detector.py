@@ -37,7 +37,7 @@ elif 'win' in sub_lower:
     print(f'Analyzed subject: "{subject}"')
 elif 'free' in subject: 
     print("SECURITY ASSESSMENT:")
-    print("MEDIUM RISK: Suspicious offer detected")
+    print("MEDIUM RISK: Suspicious offer detected.")
     print("------------------------")
     print(f'Analyzed subject: "{subject}"')
 elif 'password reset' in sub_lower:
