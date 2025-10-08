@@ -28,7 +28,7 @@ if 'urgent' in sub_lower:
 elif 'immediate action required' in subject:
     print("SECURITY ASSESSMENT:")
     print("HIGH RISK: Possible phishing attempt.")
-    print(f'Analyzed subject:{subject}')
+    print(f'Analyzed subject: {subject}')
 elif 'win' in sub_lower:
     print("SECURITY ASSESSMENT:")
     print("MEDIUM RISK: Suspicious offer detected.")
